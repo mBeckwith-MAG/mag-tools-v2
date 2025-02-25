@@ -9,16 +9,18 @@ import InformationVariantCircleIcon from 'vue-material-design-icons/InformationV
 
 <template>
   <header>
-    <nav class="flex justify-center gap-1">
-      <PageLink linkTo="/">
-        <HomeVariantIcon />
-      </PageLink>
-      <PageLink linkTo="/vw-calc">
-        <CalculatorIcon />
-      </PageLink>
-      <PageLink linkTo="/about">
-        <InformationVariantCircleIcon />
-      </PageLink>
+    <nav class="flex justify-between ps-1 pe-1">
+        <div class="flex justify-center gap-1">
+          <PageLink linkTo="/">
+          <HomeVariantIcon />
+          </PageLink>
+          <PageLink linkTo="/vw-calc">
+          <CalculatorIcon />
+          </PageLink>
+        </div>
+        <PageLink linkTo="/about">
+          <InformationVariantCircleIcon />
+        </PageLink>
     </nav>
   </header>
   <main class="mt-8 p-4">
